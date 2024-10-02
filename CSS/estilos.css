@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #596aca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.navbar {
+    background-color: gray;
+    padding: 10px;
+}
+.navbar .nav-link {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.navbar .nav-link:hover {
+    color: #0056b3;
+}
+.card {
+    border: solid 5px #00000021;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+}
+.card .btn {
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.card .btn:hover {
+    background-color: #e01e1e;
+}
+.btn-primary {
+    background-color: darkgray;
+    color: darkgray;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: gray;
+}
+footer {
+    background-color: #35c9c1;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
